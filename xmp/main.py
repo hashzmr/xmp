@@ -23,7 +23,7 @@ def handle(filepath: Path):
         if line == "```py":
             is_script = True
 
-    tmp = filepath.with_suffix(".mp")
+    tmp = filepath.with_suffix(".xmp")
 
     with tmp.open(mode="w") as f:
         f.write("\n".join(py))

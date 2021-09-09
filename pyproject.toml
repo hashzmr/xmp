@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "mp"
+name = "xmp"
 version = "0.0.1"
-description = "mp is execute Python code in Markdown code block."
+description = "xmp is execute Python code in Markdown code block."
 authors = ["hashzmr <rhashizume7729@gmail.com>"]
 license = "MIT"
-repository = "https://github.com/hashzmr/mp"
+repository = "https://github.com/hashzmr/xmp"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -20,4 +20,4 @@ requires = ["poetry-core>=1.0.0", "setuptools"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-mp = "mp.main:main"
+xmp = "xmp.main:main"

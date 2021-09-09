@@ -1,6 +1,6 @@
-# mp
+# xmp
 
-mp is execute Python code in Markdown code block.
+xmp is execute Python code in Markdown code block.
 
 Inspired from [zx](https://github.com/google/zx)
 
@@ -8,15 +8,15 @@ Inspired from [zx](https://github.com/google/zx)
 
 ### `pip`
 
-`pip install mp`
+`pip install xmp`
 
 ### `poetry`
 
-`poetry add mp`
+`poetry add xmp`
 
 ## Usage
 
-`mp {Markdown file path}`
+`xmp {Markdown file path}`
 
 ## License
 
